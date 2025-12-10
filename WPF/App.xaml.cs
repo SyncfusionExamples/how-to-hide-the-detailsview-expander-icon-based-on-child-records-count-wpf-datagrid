@@ -22,7 +22,7 @@ namespace MasterDetailsViewDemo
     {
         public App()
         {
-            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(Syncfusion.Licensing.DemoCommon.FindLicenseKey());
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("License Key");
         }
     }
 }
