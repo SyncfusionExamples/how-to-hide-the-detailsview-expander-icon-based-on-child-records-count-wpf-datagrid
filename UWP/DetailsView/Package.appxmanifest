@@ -8,14 +8,14 @@
 
   <Identity
     Name="005f0993-650b-40d9-ade1-4ab719ea6a37"
-    Publisher="CN=VijayarasanSivanandh"
+    Publisher="CN=DetailsView"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="005f0993-650b-40d9-ade1-4ab719ea6a37" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>DetailsView</DisplayName>
-    <PublisherDisplayName>VijayarasanSivanandh</PublisherDisplayName>
+    <PublisherDisplayName>DetailsView</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
