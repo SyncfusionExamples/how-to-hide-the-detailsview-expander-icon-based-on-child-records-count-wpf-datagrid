@@ -21,14 +21,14 @@
                     <syncfusion:GridViewDefinition.DataGrid>
                         <syncfusion:SfDataGrid x:Name="FirstDetailsViewGrid">
                             <syncfusion:SfDataGrid.Columns>
-                                <syncfusion:GridTextColumn MappingName="OrderID" />
-                                <syncfusion:GridTextColumn MappingName="ProductID" TextAlignment="Right" />
+                                <syncfusion:GridTextColumn MappingName="OrderID" HeaderText="Order ID" />
+                                <syncfusion:GridTextColumn MappingName="ProductID" HeaderText="Product ID" TextAlignment="Right" />
                                 <syncfusion:GridTextColumn HeaderText="Unit Price"
                                                    MappingName="UnitPrice"
                                                    TextAlignment="Right" />
                                 <syncfusion:GridTextColumn MappingName="Quantity" TextAlignment="Right" />
                                 <syncfusion:GridTextColumn MappingName="Discount" TextAlignment="Right" />
-                                <syncfusion:GridTextColumn MappingName="CustomerID" />
+                                <syncfusion:GridTextColumn MappingName="CustomerID" HeaderText="Customer ID" />
                                 <syncfusion:GridDateTimeColumn HeaderText="Order Date"
                                                        MappingName="OrderDate"
                                                        TextAlignment="Right" />
@@ -39,8 +39,8 @@
             </syncfusion:SfDataGrid.DetailsViewDefinition>
 
             <syncfusion:SfDataGrid.Columns>
-                <syncfusion:GridTextColumn MappingName="OrderID" />
-                <syncfusion:GridTextColumn MappingName="CustomerID" />
+                <syncfusion:GridTextColumn MappingName="OrderID" HeaderText="Order ID" />
+                <syncfusion:GridTextColumn MappingName="CustomerID" HeaderText="Customer ID" />
                 <syncfusion:GridDateTimeColumn Width="200"
                                        HeaderText="Shipping Date"
                                        MappingName="ShippingDate"

@@ -11,7 +11,7 @@
     <AssemblyName>DetailsView</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.17763.0</TargetPlatformVersion>
+    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.18362.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.16299.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
@@ -163,22 +163,10 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Syncfusion.Data.UWP, Version=17.2460.0.34, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Syncfusion\Essential Studio\Universal Windows\17.2.0.34\Assemblies for Universal Windows\10.0\Syncfusion.Data.UWP.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfGrid.UWP, Version=17.2460.0.34, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Syncfusion\Essential Studio\Universal Windows\17.2.0.34\Assemblies for Universal Windows\10.0\Syncfusion.SfGrid.UWP.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfInput.UWP, Version=17.2460.0.34, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Syncfusion\Essential Studio\Universal Windows\17.2.0.34\Assemblies for Universal Windows\10.0\Syncfusion.SfInput.UWP.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfShared.UWP, Version=17.2460.0.34, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Syncfusion\Essential Studio\Universal Windows\17.2.0.34\Assemblies for Universal Windows\10.0\Syncfusion.SfShared.UWP.dll</HintPath>
-    </Reference>
+    <Reference Include="Syncfusion.Data.UWP" />
+    <Reference Include="Syncfusion.SfGrid.UWP" />
+    <Reference Include="Syncfusion.SfInput.UWP" />
+    <Reference Include="Syncfusion.SfShared.UWP" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
