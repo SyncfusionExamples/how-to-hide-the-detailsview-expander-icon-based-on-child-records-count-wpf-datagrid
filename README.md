@@ -8,6 +8,7 @@ You can customize hiding the details view expander icon by handling the **SfData
 
 ``` c#
 this.dataGrid.QueryDetailsViewExpanderState += DataGrid_QueryDetailsViewExpanderState;
+
 private void DataGrid_QueryDetailsViewExpanderState(object sender, Syncfusion.UI.Xaml.Grid.QueryDetailsViewExpanderStateEventArgs e)
 {
     var orderInfo = e.Record as OrderInfo;
