@@ -16,7 +16,7 @@
     <Grid>
         <syncfusion:SfDataGrid x:Name="dataGrid"
                                        AutoGenerateColumns="False"
-                                       HideEmptyGridViewDefinition="False"
+                                       HideEmptyGridViewDefinition="True"
                                        ItemsSource="{Binding Path=OrdersDetails}"
                                        NavigationMode="Cell"
                                        ShowGroupDropArea="True">
